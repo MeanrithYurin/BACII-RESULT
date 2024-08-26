@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BACII SCORE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BACII RESULT</h1>
+        <input type="text" placeholder="Khmer" id="K">
+        <div id="resultK" onclick="resultK()"><h2><span>Grade:</span></h2></div>
+        <input type="text" placeholder="Math" id="M">
+        <div id="resultM" onclick="resultM()"><h2><span>Grade:</span></h2></div>
+        <input type="text" placeholder="Physics" id="P">
+        <div id="resultP" onclick="resultP()"><h2><span>Grade:</span></h2></div>
+        <input type="text" placeholder="Chemistry" id="C">
+        <div id="resultC" onclick="resultC()"><h2><span>Grade:</span></h2></div>
+        <input type="text" placeholder="Biology" id="B">
+        <div id="resultB" onclick="resultB()"><h2><span>Grade:</span></h2></div>
+        <input type="text" placeholder="Subject Choice" id="H">
+        <div id="resultH" onclick="resultH()"><h2><span>Grade:</span></h2></div>
+        <input type="text" placeholder="English" id="E">
+        <div id="resultE" onclick="resultE()"><h2><span>Grade:</span></h2></div>
+        <button type="button"onclick="show_result()">Show Result</button>
+        <div id="result">
+            <h2>
+                Total Scores:
+                <span id="total"></span>
+            </h2>
+            <h2>
+                Overall Grade:
+                <span id="grade"></span>
+            </h2>
+            <h2>
+                Final Result:
+                <span id="final_result"></span>
+            </h2>
+        </div>
+    </div>
+    <script src="index1.js"></script>
+</body>
+</html>
